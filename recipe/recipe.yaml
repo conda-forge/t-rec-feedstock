@@ -1,5 +1,5 @@
 context:
-  version: "0.8.1"
+  version: "0.8.2"
 
 package:
   name: t-rec
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/sassman/t-rec-rs/archive/v${{ version }}.tar.gz
-  sha256: 3b008a13d773807d3ce92ff296106c779bea7f57b9bd6d6a5530f7159980cb7c
+  sha256: 79ea7cbfe88e45ab913fa9963d74b9b7530cb73e39b686b0d8a692b7a9f331b8
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
